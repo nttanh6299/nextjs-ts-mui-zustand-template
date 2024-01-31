@@ -11,7 +11,9 @@
     "analyze": "ANALYZE=true yarn build"
   },
   "dependencies": {
+    "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.3",
+    "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.6",
     "@next/bundle-analyzer": "^13.5.6",
