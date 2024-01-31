@@ -1,20 +1,59 @@
 {
+  "name": "nextjs-ts-mui-zustand-template",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "format": "prettier --write .",
+    "analyze": "ANALYZE=true yarn build"
   },
   "dependencies": {
-    "next": "latest",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.6",
+    "@next/bundle-analyzer": "^13.5.6",
+    "axios": "^1.1.3",
+    "dayjs": "^1.11.7",
+    "immer": "^10.0.3",
+    "jwt-decode": "^4.0.0",
+    "lodash": "^4.17.21",
+    "next": "^13.4.2",
+    "nprogress": "^0.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-query": "^3.39.3",
+    "sass": "^1.62.1",
+    "sharp": "^0.32.1",
+    "zustand": "^4.5.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.173",
     "@types/node": "^12.12.21",
+    "@types/nprogress": "^0.2.3",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
-    "typescript": "^4.8.3"
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "8.25.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.31.9",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "lint-staged": "13.0.3",
+    "prettier": "^2.5.1",
+    "typescript": "5.0.4"
+  },
+  "engines": {
+    "node": "18"
   }
 }
